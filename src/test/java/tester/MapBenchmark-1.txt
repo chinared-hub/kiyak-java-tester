@@ -1,0 +1,169 @@
+# JMH version: 1.23
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:D:\app\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=56010:D:\app\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: tester.MapBenchmark.measure_level1
+
+# Run progress: 0.00% complete, ETA 00:08:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 77154142.951 ops/s
+# Warmup Iteration   2: 78767613.833 ops/s
+# Warmup Iteration   3: 79547255.275 ops/s
+# Warmup Iteration   4: 76424774.939 ops/s
+# Warmup Iteration   5: 79271764.680 ops/s
+Iteration   1: 79331125.446 ops/s
+Iteration   2: 78803679.173 ops/s
+Iteration   3: 82215790.281 ops/s
+Iteration   4: 79890697.641 ops/s
+Iteration   5: 78614304.718 ops/s
+
+
+Result "tester.MapBenchmark.measure_level1":
+  79771119.452 ±(99.9%) 5599500.347 ops/s [Average]
+  (min, avg, max) = (78614304.718, 79771119.452, 82215790.281), stdev = 1454172.458
+  CI (99.9%): [74171619.104, 85370619.799] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:D:\app\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=56010:D:\app\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: tester.MapBenchmark.measure_level2
+
+# Run progress: 20.00% complete, ETA 00:06:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 59464331.544 ops/s
+# Warmup Iteration   2: 61525780.518 ops/s
+# Warmup Iteration   3: 59786305.879 ops/s
+# Warmup Iteration   4: 60035366.321 ops/s
+# Warmup Iteration   5: 60882835.068 ops/s
+Iteration   1: 60452259.011 ops/s
+Iteration   2: 59291339.113 ops/s
+Iteration   3: 60824145.346 ops/s
+Iteration   4: 60029157.739 ops/s
+Iteration   5: 59960079.020 ops/s
+
+
+Result "tester.MapBenchmark.measure_level2":
+  60111396.046 ±(99.9%) 2217342.813 ops/s [Average]
+  (min, avg, max) = (59291339.113, 60111396.046, 60824145.346), stdev = 575836.887
+  CI (99.9%): [57894053.233, 62328738.858] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:D:\app\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=56010:D:\app\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: tester.MapBenchmark.measure_level3
+
+# Run progress: 40.00% complete, ETA 00:05:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 38697158.694 ops/s
+# Warmup Iteration   2: 36635754.244 ops/s
+# Warmup Iteration   3: 37054276.514 ops/s
+# Warmup Iteration   4: 36825091.769 ops/s
+# Warmup Iteration   5: 36872687.726 ops/s
+Iteration   1: 37607296.567 ops/s
+Iteration   2: 37003173.619 ops/s
+Iteration   3: 36250181.379 ops/s
+Iteration   4: 35939744.162 ops/s
+Iteration   5: 37011557.083 ops/s
+
+
+Result "tester.MapBenchmark.measure_level3":
+  36762390.562 ±(99.9%) 2563667.187 ops/s [Average]
+  (min, avg, max) = (35939744.162, 36762390.562, 37607296.567), stdev = 665776.227
+  CI (99.9%): [34198723.375, 39326057.749] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:D:\app\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=56010:D:\app\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: tester.MapBenchmark.measure_level4
+
+# Run progress: 60.00% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 41681671.832 ops/s
+# Warmup Iteration   2: 41188356.531 ops/s
+# Warmup Iteration   3: 40338596.223 ops/s
+# Warmup Iteration   4: 39353128.402 ops/s
+# Warmup Iteration   5: 40004173.201 ops/s
+Iteration   1: 39793601.626 ops/s
+Iteration   2: 39267982.885 ops/s
+Iteration   3: 39826324.108 ops/s
+Iteration   4: 39334089.543 ops/s
+Iteration   5: 39945352.885 ops/s
+
+
+Result "tester.MapBenchmark.measure_level4":
+  39633470.210 ±(99.9%) 1192014.187 ops/s [Average]
+  (min, avg, max) = (39267982.885, 39633470.210, 39945352.885), stdev = 309562.299
+  CI (99.9%): [38441456.023, 40825484.397] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:D:\app\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=56010:D:\app\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: tester.MapBenchmark.measure_level5
+
+# Run progress: 80.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 18493437.604 ops/s
+# Warmup Iteration   2: 18701588.026 ops/s
+# Warmup Iteration   3: 18924295.082 ops/s
+# Warmup Iteration   4: 18686932.975 ops/s
+# Warmup Iteration   5: 18894661.125 ops/s
+Iteration   1: 18777528.529 ops/s
+Iteration   2: 18830810.000 ops/s
+Iteration   3: 18972413.880 ops/s
+Iteration   4: 18897402.930 ops/s
+Iteration   5: 18981694.370 ops/s
+
+
+Result "tester.MapBenchmark.measure_level5":
+  18891969.942 ±(99.9%) 341105.946 ops/s [Average]
+  (min, avg, max) = (18777528.529, 18891969.942, 18981694.370), stdev = 88584.131
+  CI (99.9%): [18550863.995, 19233075.888] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:24
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                     Mode  Cnt         Score         Error  Units
+MapBenchmark.measure_level1  thrpt    5  79771119.452 ± 5599500.347  ops/s
+MapBenchmark.measure_level2  thrpt    5  60111396.046 ± 2217342.813  ops/s
+MapBenchmark.measure_level3  thrpt    5  36762390.562 ± 2563667.187  ops/s
+MapBenchmark.measure_level4  thrpt    5  39633470.210 ± 1192014.187  ops/s
+MapBenchmark.measure_level5  thrpt    5  18891969.942 ±  341105.946  ops/s
