@@ -24,7 +24,9 @@ public class MapBenchmark {
     }
 
     private Map<String, String> reps(int reps) {
-        Map<String, String> map = new HashMap<>((int) ((float) reps / 0.75F + 1.0F));
+        // Map<String, String> map = new HashMap<>((int) ((float) reps / 0.75F + 1.0F)); // 使用初始化容量的构造函数
+        Map<String, String> map = new HashMap<>(); // 使用默认构造函数
+
         for (int i = 0; i < reps; i++) {
             String test = resource[i];
             map.put(test, test);
@@ -33,9 +35,9 @@ public class MapBenchmark {
     }
 
     @Benchmark
-    @OperationsPerInvocation(16)
+    @OperationsPerInvocation(10)
     public Map<String, String> measure_level1() {
-        return reps(16);
+        return reps(10);
     }
 
     @Benchmark
