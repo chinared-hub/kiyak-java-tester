@@ -1,4 +1,4 @@
-package tester;
+package tester.map;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
